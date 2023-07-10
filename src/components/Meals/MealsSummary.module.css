@@ -11,6 +11,7 @@
     rgba(138, 43, 6, 1) 0%,
     rgba(26, 30, 217, 1) 100%
   );
+  font-family: 'Crimson Text', serif;
   color: white;
   border-radius: 14px;
   padding: 1rem;
@@ -20,4 +21,28 @@
 .summary h2 {
   font-size: 2rem;
   margin-top: 0;
+}
+
+.paragraph{
+  font-size: 1.2rem;
+}
+
+.button {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background-color: #3b0579;
+  color: white;
+  padding: 0.75rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.button:hover,
+.button:active {
+  background-color: #2c0d00;
 }

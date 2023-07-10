@@ -11,6 +11,7 @@
     rgba(26, 30, 217, 1) 100%
   );
   color: white;
+  font-family: 'Bebas Neue', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
